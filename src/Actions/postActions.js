@@ -13,3 +13,10 @@ export const fetchPosts = () => dispatch =>{
     );
 
 }
+
+export const tri  = (a,b) =>
+{
+  if (a.title < b.title) return -1;
+  else if (a.title == b.title) return 0;
+  else return 1;
+}

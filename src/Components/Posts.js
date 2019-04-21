@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
-import {fetchPosts} from '../Actions/postActions'
+import {fetchPosts, tri} from '../Actions/postActions'
 import './Posts.css';
 
 class Posts extends Component{
@@ -18,17 +18,8 @@ class Posts extends Component{
 
 
   render(){
-    const postItems = this.props.posts.map(
-      (post)=>(
-        <div key = {post.id}>
-          <h3>{post.title}</h3>
-          <p>{post.body}</p>
 
-        </div>
-      )
-    );
-
-    const postsItems2 = (
+    const postsItems = (
       <div>
         <table>
         <colgroup>
@@ -45,7 +36,10 @@ class Posts extends Component{
         </tr>
         {
 
-          this.props.posts.map(
+          this.props.posts
+          .sort(tri )
+          .slice(0,50)
+          .map(
             (post)=>(
               <tr key = {post.id} class="ligne-paire">
                   <td>{post.id}</td>
@@ -62,7 +56,7 @@ class Posts extends Component{
     return(
       <div>
         <h1>Liste des posts</h1>
-        {postsItems2}
+        {postsItems}
       </div>
     );
   }
