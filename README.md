@@ -5,8 +5,13 @@
   ------------------configuration d environnement--------------------
   -------------------------------------------------------------------
 
+<<<<<<< HEAD
   Pour bien configurer votre environnement il faut installer:
   1- Node.js.
+=======
+  Pour bien configurer votre environnement il faut installer: 
+  1- Node.js. 
+>>>>>>> aeae21d6fc27333411a2967967d10b4476d77863
   2- npm le gestionnaire de modules.
   3- La liberaries Reactjs create-react-app.
 
@@ -16,10 +21,17 @@
 
   Node.js est un environnement d'exécution JavaScript installable partout, qui permet d'écrire n'importe quel type de programme en JavaScrip
 
+<<<<<<< HEAD
   Tapez la commande en cmd.exe pour verifier si le node est installé:
    node --version
 
   Sinon telecharger la derniere version du node 8.10.0 ou plus:
+=======
+  Tapez la commande en cmd.exe pour verifier si le node est installé: 
+   node --version
+
+  Sinon telecharger la derniere version du node 8.10.0 ou plus: 
+>>>>>>> aeae21d6fc27333411a2967967d10b4476d77863
   https://nodejs.org/fr/download/
 
   2- npm le gestionnaire de modules:
@@ -47,6 +59,7 @@
   -----------------------------------------------------
   --------------Creeation un projet--------------------
   -----------------------------------------------------
+<<<<<<< HEAD
 
    - Avant de lancer l'application il faut installer les packages, pour le faire ouvrez le cmd.exe, déplacez vous sur le dossier du projet avec la commande cd et lancer la commande:
    npm install
@@ -60,3 +73,24 @@
 
   - Pour lancer le projet:
    npm start
+=======
+  
+   - Avant de lancer l'application il faut installer les packages, pour le faire ouvrez le cmd.exe, déplacez vous sur le dossier du projet avec la commande cd et lancer la commande:
+   npm install
+   
+  - Pour lancer le projet ouvrez le cmd.exe, positionnez vous sur le dessioer du projet qui s'appel projet avec la commende cd  
+    et tapez la commande suivante pour lancer l'application:
+   npm start
+
+  - Pour créer un nouveau projet ouvrez le cmd.exe, positionnez vous sur un dossier que vous désirez créer un projet et tapez la commande suivante:
+   create-react-app monprojet
+
+  - Pour lancer le projet:
+   npm start
+
+
+
+
+
+
+>>>>>>> aeae21d6fc27333411a2967967d10b4476d77863
