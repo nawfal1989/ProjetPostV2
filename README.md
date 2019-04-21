@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+  Le document suivant décrit les étapes à suivre pour installer et configurer l'environnement afin de faire fonctionner l'application
 
-In the project directory, you can run:
+  -------------------------------------------------------------------
+  ------------------configuration d environnement--------------------
+  -------------------------------------------------------------------
 
-### `npm start`
+  Pour bien configurer votre environnement il faut installer:
+  1- Node.js.
+  2- npm le gestionnaire de modules.
+  3- La liberaries Reactjs create-react-app.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+  1- Node.js:
+  -----------
 
-### `npm test`
+  Node.js est un environnement d'exécution JavaScript installable partout, qui permet d'écrire n'importe quel type de programme en JavaScrip
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  Tapez la commande en cmd.exe pour verifier si le node est installé:
+   node --version
 
-### `npm run build`
+  Sinon telecharger la derniere version du node 8.10.0 ou plus:
+  https://nodejs.org/fr/download/
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  2- npm le gestionnaire de modules:
+  ----------------------------------
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+  - Fermez et ouvrez un nouveau cmd
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - installer npm le gestionnaire de modules de Node l'idéal étant la version 5.3 ou au-delà:
+   npm install --global npm
 
-### `npm run eject`
+  - Vérifiez la version ensuite :
+   npm --version
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  3- La liberaries Reactjs create-react-app:
+  ------------------------------------------
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - Ouvrez un nouveau cmd.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  - tapez la commande pour installer:
+   npm install --global create-react-app
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  -----------------------------------------------------
+  --------------Creeation un projet--------------------
+  -----------------------------------------------------
 
-### Code Splitting
+   - Avant de lancer l'application il faut installer les packages, pour le faire ouvrez le cmd.exe, déplacez vous sur le dossier du projet avec la commande cd et lancer la commande:
+   npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  - Pour lancer le projet ouvrez le cmd.exe, positionnez vous sur le dessioer du projet qui s'appel projet avec la commende cd  
+    et tapez la commande suivante pour lancer l'application:
+   npm start
 
-### Analyzing the Bundle Size
+  - Pour créer un nouveau projet ouvrez le cmd.exe, positionnez vous sur un dossier que vous désirez créer un projet et tapez la commande suivante:
+   create-react-app monprojet
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  - Pour lancer le projet:
+   npm start
