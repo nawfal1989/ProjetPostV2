@@ -47,7 +47,10 @@
   -----------------------------------------------------
   --------------Creeation un projet--------------------
   -----------------------------------------------------
-
+  
+   - Avant de lancer l'application il faut installer les packages, pour le faire ouvrez le cmd.exe, déplacez vous sur le dossier du projet avec la commande cd et lancer la commande:
+   npm install
+   
   - Pour lancer le projet ouvrez le cmd.exe, positionnez vous sur le dessioer du projet qui s'appel projet avec la commende cd  
     et tapez la commande suivante pour lancer l'application:
    npm start
